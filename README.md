@@ -1,4 +1,5 @@
-# Jungle-Gym
+# Jungle Gym
+![Jungle-Gym](https://github.com/BurkeBlaine1999/Jungle-Gym/blob/main/Assets/Images/Jungle%20Gym%20Logo.png?raw=true )
 
 Jungle Gym is a climbing virtual reality game in which the player must race to the finish line in order to achieve the highscore!
 
