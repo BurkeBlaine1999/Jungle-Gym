@@ -2,6 +2,8 @@
 
 Jungle Gym is a climbing virtual reality game in which the player must race to the finish line in order to achieve the highscore!
 
+Jungle Gym was created as a group project for our college module "Gesture Based URI Development".
+
 ![Jungle-Gym](https://github.com/BurkeBlaine1999/Jungle-Gym/blob/main/Assets/Images/Jungle%20Gym%20Logo.png?raw=true )
 
 
