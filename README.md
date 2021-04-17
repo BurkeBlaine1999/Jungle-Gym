@@ -9,10 +9,10 @@ Jungle Gym was created as a group project for our college module "Gesture Based 
 
 ## Getting Started
 
-* Download the Unity package from google drive! - [Download](https://drive.google.com/file/d/1Hko5Zul_pQtwcwQP_K8HpWRQEZoRVzuE/view?usp=sharing)
+* Download the Unity package from google drive! - [Download](https://drive.google.com/file/d/1YkWjDp6DtJ3_al531Yef2HrISE8H5K20/view?usp=sharing)
+* Download the Build from google drive! - [Download](https://drive.google.com/file/d/1XZnqAFj_KHjCNPg_NW1AsADsWoo41Nb6/view?usp=sharing)
 * Import the unity package into your unity editor!
 * Download the XR Interaction preview package from the Unity package manager if you wish to run or edit the game using Unity.
-
 
 ### Prerequisites
 
