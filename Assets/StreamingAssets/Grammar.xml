@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<grammar xml:lang="en" root="gamerules"
+tag-format="semantics/1.0" version="1.0"
+xmlns="http://www.w3.org/2001/06/grammar">
+
+    <rule id="gamerules">
+        <one-of>
+            <item><ruleref uri="#startGame"/></item>
+            <item><ruleref uri="#stopGame"/></item>
+            <item><ruleref uri="#restart"/></item>
+        </one-of>
+    </rule>
+
+    <!-- Begin game rules-->
+    <rule id="startGame">
+      <tag>out = "start";</tag>
+      <one-of>
+        <item>start</item>
+        <item>begin</item>
+        <item>play</item>
+
+        <item>start the game</item>
+        <item>begin the game</item>
+        <item>play the game</item>
+      </one-of>
+    </rule>
+
+    <!-- Stop game rules-->
+    <rule id="stopGame">
+        <tag>out = "stop";</tag>
+        <one-of>
+            <item>stop</item>
+            <item>quit</item>
+            <item>end</item>
+            <item>exit</item>
+
+            <item>stop_game</item>
+            <item>quit_game</item>
+            <item>end_game</item>
+            <item>exit_game</item>
+
+            <item>stop_the_game</item>
+            <item>quit_the_game</item>
+            <item>end_the_game</item>
+            <item>exit_the_game</item>
+        </one-of>
+    </rule>
+
+    <!-- Restart game rules-->
+    <rule id="restart">
+        <tag>out = "restart";</tag>
+        <one-of>
+            <item>restart</item>
+            <item>reset</item>
+
+            <item>restart_game</item>
+            <item>reset_game</item>
+
+            <item>restart_the_game</item>
+            <item>reset_the_game</item>
+        </one-of>
+    </rule>
+
+</grammar>
