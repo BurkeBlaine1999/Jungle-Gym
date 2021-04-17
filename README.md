@@ -2,21 +2,23 @@
 
 Jungle Gym is a climbing virtual reality game in which the player must race to the finish line in order to achieve the highscore!
 
-Jungle Gym was created as a group project for our college module "Gesture Based URI Development".
+Jungle Gym was created as a group project for our college module "Gesture Based URI Development". The main focus of this project was to incorporate gestures into a project and we opted for creating a VR climbing game. This game incorporates gestures such as grabbing, pointing, pushing and voice usage.
 
 ![Jungle-Gym](https://github.com/BurkeBlaine1999/Jungle-Gym/blob/main/Assets/Images/Jungle%20Gym%20Logo.png?raw=true )
-
 
 
 ## Getting Started
 
 * Download the Unity package from google drive! - [Download](https://drive.google.com/file/d/1Hko5Zul_pQtwcwQP_K8HpWRQEZoRVzuE/view?usp=sharing)
 * Import the unity package into your unity editor!
+* Download the XR Interaction preview package from the Unity package manager if you wish to run or edit the game using Unity.
 
 
 ### Prerequisites
 
-[Unity](https://unity.com/)
+- [Unity](https://unity.com/)
+- Virtual Reality Equipment
+- XR Interaction package from Unity (if you wish to edit code or run from Unity editor)
 
 ## Versioning
 
