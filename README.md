@@ -18,7 +18,7 @@ Jungle Gym was created as a group project for our college module "Gesture Based 
 
 - [Unity](https://unity.com/)
 - Virtual Reality Equipment
-- XR Interaction package from Unity (if you wish to edit code or run from Unity editor)
+- XR Interaction package from Unity, Version 0.9.4 (if you wish to edit code or run from Unity editor)
 
 ## Versioning
 

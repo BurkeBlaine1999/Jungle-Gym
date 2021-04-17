@@ -45,7 +45,7 @@ public class VoiceController : MonoBehaviour
                     StartGame();
                     break;
                 case "stop":
-                    QuitGame();
+                    StopGame();
                     break;
                 case "restart":
                     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
@@ -68,9 +68,8 @@ public class VoiceController : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-    public void QuitGame()
+    public void StopGame()
     {
-        Debug.Log("In QuitGame()");
-        Application.Quit();
+        SceneManager.LoadScene("MainMenu");
     }
 }
