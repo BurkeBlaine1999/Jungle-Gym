@@ -1,5 +1,4 @@
-﻿
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
@@ -73,6 +72,8 @@ public class VoiceController : MonoBehaviour
 
     public void NextLevel() 
     {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
         if(SceneManager.GetActiveScene().buildIndex == 3) 
         {
             SceneManager.LoadScene("MainMenu");
