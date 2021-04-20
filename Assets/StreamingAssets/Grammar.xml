@@ -7,6 +7,7 @@ xmlns="http://www.w3.org/2001/06/grammar">
     <rule id="gamerules">
         <one-of>
             <item><ruleref uri="#startGame"/></item>
+            <item><ruleref uri="#nextlevel"/></item>
             <item><ruleref uri="#stopGame"/></item>
             <item><ruleref uri="#restart"/></item>
         </one-of>
@@ -23,6 +24,13 @@ xmlns="http://www.w3.org/2001/06/grammar">
         <item>start the game</item>
         <item>begin the game</item>
         <item>play the game</item>
+      </one-of>
+    </rule>
+
+    <rule id="nextlevel">
+      <tag>out = "next";</tag>
+      <one-of>
+        <item>next level</item>
       </one-of>
     </rule>
 

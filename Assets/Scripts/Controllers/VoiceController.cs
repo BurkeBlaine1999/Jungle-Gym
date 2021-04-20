@@ -44,6 +44,9 @@ public class VoiceController : MonoBehaviour
                 case "start":
                     StartGame();
                     break;
+                case "next":
+                    NextLevel();
+                    break;
                 case "stop":
                     StopGame();
                     break;
@@ -65,7 +68,19 @@ public class VoiceController : MonoBehaviour
 
     public void StartGame() 
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("Level One");
+    }
+
+    public void NextLevel() 
+    {
+        if(SceneManager.GetActiveScene().buildIndex == 3) 
+        {
+            SceneManager.LoadScene("MainMenu");
+        }
+        else 
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
     }
 
     public void StopGame()
